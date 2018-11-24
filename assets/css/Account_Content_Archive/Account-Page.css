@@ -1,0 +1,155 @@
+.login-btn-discord {
+  background-color: #7289DA;
+  float: right;
+}
+
+.login-btn-facebook-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.login-btn-discord-icon {
+  width: 54px;
+  height: 54px;
+  margin-top: 4px;
+}
+
+.panel {
+  background-color: #CCC;
+}
+
+#accordion-1 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.accordian_container {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.facebookLoginInformation {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  border: 1px solid #444;
+  border-radius: 10px;
+}
+
+.facebookLoginInformationPhoto {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  background-color: #EEE;
+  border-radius: 50%;
+  padding-top: 4px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.facebookLoginInformationPhotoInner {
+  width: 112px;
+  height: 112px;
+  margin: 0 auto;
+  background-color: #FFF;
+  border-radius: 50%;
+  padding-top: 2px;
+}
+
+#facebookLoginInformationPhotoActual {
+  width: 108px;
+  height: 108px;
+  background-color: rgba(0,0,0,0);
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.accordian_container, .panel {
+  background-color: #FFE;
+}
+
+.accordian_container {
+  border: 1px solid #DDD;
+}
+
+.feedDiv {
+  width: 100%;
+  min-height: 20px;
+  background-color: #DDD;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.feed-connections {
+  position: relative;
+  width: 240px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.feed-share {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  width: 120px;
+}
+
+.sm-lead {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.feed-sm {
+  width: 70px;
+  height: 50px;
+  display: inline-block;
+  line-height: 35px;
+  background-color: #999;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.feed-btn {
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.feed-admin-sm {
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.better-blue-btn {
+  background-color: #0b485b;
+}
+
+.better-blue-btn:hover {
+  background-color: #042630;
+}
+
+#loading-title {
+  margin: 20px;
+  margin-top: 40px;
+  font-family: 'Allerta';
+}
+
+.loading-icon {
+  width: 240px;
+  height: 240px;
+  text-align: center;
+  margin: 20px;
+}
+

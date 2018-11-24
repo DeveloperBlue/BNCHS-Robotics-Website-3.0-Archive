@@ -1,0 +1,148 @@
+.login-dark {
+  background: #475d62 url(../../../assets/img/star-sky.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.login-dark form {
+  max-width: 320px;
+  width: 90%;
+  background-color: #1e2833;
+  padding: 40px;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
+}
+
+.login-dark .illustration {
+  text-align: center;
+  padding: 15px 0 20px;
+  font-size: 100px;
+  color: #2980ef;
+}
+
+.login-dark form .form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #434a52;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+}
+
+.login-dark form .btn-primary {
+  background: #214a80;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none;
+}
+
+.login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+  background: #214a80;
+  outline: none;
+}
+
+.login-dark form .forgot {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.login-dark form .forgot:hover, .login-dark form .forgot:active {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.login-dark form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+p {
+  color: black;
+  font-family: 'ABeeZee';
+}
+
+a {
+  font-weight: bold;
+}
+
+.login-divider {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  height: 1px;
+  background-color: #888;
+}
+
+.login-height-1 {
+  height: 1000px;
+}
+
+.signing-error {
+  margin-top: 10px;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.forgot {
+  margin-bottom: 5px;
+}
+
+.login-alt-p {
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+  font-family: helvetica;
+}
+
+.login-btn-block {
+  width: 49%;
+  height: 80px;
+  text-align: center;
+  display: block;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.login-btn-block:hover {
+  background-color: #214a80;
+}
+
+.login-btn-facebook {
+  background-color: #3b5998;
+  float: left;
+}
+
+.login-btn-discord {
+  background-color: #7289DA;
+  float: right;
+}
+
+.login-btn-facebook-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.login-btn-discord-icon {
+  width: 54px;
+  height: 54px;
+  margin-top: 4px;
+}
+
+.remember-me-text {
+  position: absolute;
+  font-size: 12px;
+  margin-top: 1px;
+}
+
