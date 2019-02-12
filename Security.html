@@ -54,77 +54,58 @@
         </div>
         </div>
     </nav>
-    <div class="login-dark login-height-1">
-        <form method="post" id="form-activate">
-            <h3 class="text-center">Account Activation</h3>
-            <div class="sign-up-divider"></div>
-            <p class="text-center sign-up-p" id="error_activate">Verifying . . .</p>
-            <div class="sign-up-divider"></div>
-            <div class="form-group"><button class="btn btn-primary btn-block login-main-btn VisibilityHiddenAbsolute" type="submit" id="activate-go-to-dashboard">Go to My Dashboard</button></div>
-        </form>
-        <form method="post" id="form-reset" style="display:none;">
-            <h3 class="text-center">Reset Password</h3><a href="#" class="forgot">Looking to Sign In? Click Here.</a>
-            <div class="sign-up-divider"></div>
-            <p class="lead text-center sign-up-p" id="reset-p-text">Enter a new password for the account [STUDENT ID]</p>
-            <div class="sign-up-divider"></div>
-            <p class="text-center text-danger VisibilityHiddenAbsolute" id="error_reset" style="margin:20px 10px 10px 10px;">Incorrect password. Please double check that you have typed the same password twice.</p>
-            <div class="form-group"><input class="form-control" type="text" name="password" required="" placeholder="Password" maxlength="9" minlength="9"><input class="form-control" type="text" name="password-re" required="" placeholder="Re-enter Password" maxlength="9" minlength="9"></div>
-            <div
-                class="sign-up-divider"></div>
-    <div class="form-group"><button class="btn btn-primary btn-block login-main-btn" type="submit" id="form-reset-button">Reset Password</button></div>
-    </form>
-    </div>
-    <div>
-        <div class="divider blue"></div>
-        <div class="divider orange"></div>
-    </div><button class="btn btn-dark text-white t--light" type="button" id="toggle-contrast"><i class="icon ion-contrast"></i></button>
-    <div class="footer-clean">
-        <footer>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>BNCHS Robotics</h3>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="index.html#newsletter">Newsletter</a></li>
-                            <li><a href="Sponsors.html">Sponsors &amp; Donations</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>Community</h3>
-                        <ul>
-                            <li><a href="https://www.blog.team5599.com/" target="_blank">Our Blog</a></li>
-                            <li><a href="SocialMedia.html">Social Media</a></li>
-                            <li><a href="Projects.html">Projects &amp; Demos</a></li>
-                            <li><a href="Resources.html">Documents &amp; Resources</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>Team</h3>
-                        <ul>
-                            <li><a href="Calendar.html">Calendar</a></li>
-                            <li><a href="https://www.flickr.com/photos/142731277@N02/" target="_blank">Photos &amp; Videos</a></li>
-                            <li class="dashboard-goto-footer-outer"><a href="#" class="dashboard-goto-footer">Sign In<i class="fas fa-sign-in-alt" style="margin-left:6px;font-size:12px"></i></a></li>
-                            <li class="dashboard-sign-out-outer" style="display:none;"><a href="#" class="dashboard-sign-out">Sign Out<i class="fas fa-sign-out-alt" style="margin-left:6px;font-size:12px"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 item social"><a href="https://www.facebook.com/team5599sentinels/" class="social-url social-facebook"><i class="icon ion-social-facebook"></i></a><a href="http://9.0.0.1:8000/SocialMedia.html#" target="_blank" class="social-url social-twitter"><i class="icon ion-social-twitter"></i></a>
-                        <a
-                            href="#" class="social-url social-youtube"><i class="fa fa-youtube-play"></i></a><a href="#" class="social-url social-instagram"><i class="icon ion-social-instagram"></i></a>
-                            <p class="copyright">Copyright BNCHS Sentinels<br>Michael Rooplall&nbsp;© 2018</p>
+    <div class="header-divider-blue"></div>
+    <div class="divider orange"></div>
+    <div style="background-color:#333;"><a class="btn btn-outline-light text-center" role="button" href="Account.html" id="dashboard-return" style="margin:10px;margin-left:20px;"><i class="fa fa-arrow-circle-left" style="margin-right:8px;"></i>Back to Dashboard</a><iframe src="http://sentinels5599-40443.portmap.host:40443/" sandbox="allow-forms allow-scripts" style="min-height:900px;height:100%;width:100%;border:none;margin:0;padding:20px;"> </iframe></div>
+    <div
+        class="divider orange"></div>
+        <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>BNCHS Robotics</h3>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html#newsletter">Newsletter</a></li>
+                                <li><a href="Sponsors.html">Sponsors &amp; Donations</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Community</h3>
+                            <ul>
+                                <li><a href="https://www.blog.team5599.com/" target="_blank">Our Blog</a></li>
+                                <li><a href="SocialMedia.html">Social Media</a></li>
+                                <li><a href="Projects.html">Projects &amp; Demos</a></li>
+                                <li><a href="Resources.html">Documents &amp; Resources</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Team</h3>
+                            <ul>
+                                <li><a href="Calendar.html">Calendar</a></li>
+                                <li><a href="https://www.flickr.com/photos/142731277@N02/" target="_blank">Photos &amp; Videos</a></li>
+                                <li class="dashboard-goto-footer-outer"><a href="#" class="dashboard-goto-footer">Sign In<i class="fas fa-sign-in-alt" style="margin-left:6px;font-size:12px"></i></a></li>
+                                <li class="dashboard-sign-out-outer" style="display:none;"><a href="#" class="dashboard-sign-out">Sign Out<i class="fas fa-sign-out-alt" style="margin-left:6px;font-size:12px"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 item social"><a href="https://www.facebook.com/team5599sentinels/" class="social-url social-facebook"><i class="icon ion-social-facebook"></i></a><a href="http://9.0.0.1:8000/SocialMedia.html#" target="_blank" class="social-url social-twitter"><i class="icon ion-social-twitter"></i></a>
+                            <a
+                                href="#" class="social-url social-youtube"><i class="fa fa-youtube-play"></i></a><a href="#" class="social-url social-instagram"><i class="icon ion-social-instagram"></i></a>
+                                <p class="copyright">Copyright BNCHS Sentinels<br>Michael Rooplall&nbsp;© 2018</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    <script src="https://unpkg.com/packery@2.1/dist/packery.pkgd.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+            </footer>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+        <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+        <script src="https://unpkg.com/packery@2.1/dist/packery.pkgd.min.js"></script>
+        <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
