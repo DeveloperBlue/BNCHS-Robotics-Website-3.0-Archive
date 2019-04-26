@@ -78,61 +78,54 @@
     </nav>
     <!-- End: Navigation Bar -->
     <!-- Start: Parallax Block -->
-    <div class="parallax-container">
+    <div class="parallax-container half">
         <!-- Start: Parallax Image -->
-        <div data-bs-parallax-bg="true" class="parallax-img robot-2017 blur"></div>
+        <div data-bs-parallax-bg="true" class="parallax-img robot-2016 blur"></div>
         <!-- End: Parallax Image -->
         <div class="parallax-content-main">
             <div class="parallax-content-cell">
-                <h1 class="display-4 text-white heading-parallax">Meet the Robots</h1>
+                <h1 class="display-4 text-white heading-parallax">Upcoming Events</h1>
             </div>
         </div>
     </div>
     <!-- End: Parallax Block -->
     <div class="divider orange"></div>
-    <div id="loading-container" style="text-align:center;margin:40px;"><img style="width:64px;height:64px;" src="assets/img/Icons/SubLogo_Blue_Loading_sm.gif?h=fb4c27b46e2fd00f4de0ecbb690789a8"></div>
-    <div class="container" id="robots-container">
-        <div class="alert alert-danger" role="alert" id="robot-fail-alert" style="margin-top:80px;margin-bottom:80px;display:none;"><span class="text-center d-block">An error occured when fetching information from the database.<br>Please try again later.</span></div>
-        <div class="row" id="robot-display-container" style="margin-top:40px;margin-bottom:80px;">
-            <div class="col-lg-3 robot-item-btn-container" style="padding:0px;"><button class="btn btn-info robot-item-btn" type="button">Button<span class="bg-info robot-item-btn-competition-label">SeaPerch 2015</span></button><button class="btn btn-primary robot-item-btn" type="button">Button<span class="bg-primary robot-item-btn-competition-label">FRC 2015</span></button>
-                <button
-                    class="btn btn-primary robot-item-btn last" type="button">Button<span class="bg-primary robot-item-btn-competition-label">FRC 2015</span></button>
+    <!-- Start: Countdown Timers -->
+    <div class="home-timer-block">
+        <div>
+            <div class="text-center" style="max-width:600px;margin:0 auto;">
+                <h2>SBPLI Long Island Regional #2</h2>
             </div>
-            <div class="col-lg-9" style="padding:0px;">
-                <div class="robot-info-display-div clearfix t--light">
-                    <div class="clearfix robot-info-blue-text">
-                        <h1 id="robot-info-title" class="robot-info-blue-text t--light float-left">Title</h1>
-                        <h4 id="robot-info-season" class="robot-info-blue-text t--light float-right">Season</h4>
-                    </div>
-                    <p id="robot-info-bio" style="white-space: pre-wrap;">Paragraph</p>
-                    <div class="carousel slide" data-ride="carousel" id="robot-info-carousel-container">
-                        <div class="carousel-inner" role="listbox" id="robot-info-carousel-slide-container">
-                            <div class="carousel-item active"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ihxYC1P4EaI" class="robot-info-video" width="560" height="415"></iframe></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="http://placeholdit.imgix.net/~text?txtsize=42&amp;txt=Carousel+Image&amp;w=1400&amp;h=600" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="http://placeholdit.imgix.net/~text?txtsize=42&amp;txt=Carousel+Image&amp;w=1400&amp;h=600" alt="Slide Image"></div>
-                        </div>
-                        <div>
-                            <!-- Start: Previous --><a class="carousel-control-prev" href="#robot-info-carousel-container" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a>
-                            <!-- End: Previous -->
-                            <!-- Start: Next --><a class="carousel-control-next" href="#robot-info-carousel-container" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a>
-                            <!-- End: Next -->
-                        </div>
-                        <ol class="carousel-indicators">
-                            <li data-target="#robot-info-carousel-container" data-slide-to="0" class="active"></li>
-                            <li data-target="#robot-info-carousel-container" data-slide-to="1"></li>
-                            <li data-target="#robot-info-carousel-container" data-slide-to="2"></li>
-                        </ol>
-                    </div>
-                    <h4 class="robot-info-blue-text t--light" style="margin-top:10px;">Competitions</h4>
-                    <div id="robot-competitions-container"><a class="btn btn-primary text-left robot-info-competitions-btn" role="button" href="#">Button<i class="fa fa-film float-right"></i></a><button class="btn btn-primary text-left robot-info-competitions-btn" type="button">Button<i class="fa fa-film float-right"></i></button></div>
-                </div>
+            <div id="clock-sbpli" class="countdown-timer-container">
+                <div class="countdown-timer-node days">
+                    <div><span>04</span></div><span>Days</span></div>
+                <div class="countdown-timer-node hours">
+                    <div><span>04</span></div><span>Hours</span></div>
+                <div class="countdown-timer-node minutes">
+                    <div><span>04</span></div><span>Minutes</span></div>
+                <div class="countdown-timer-node seconds">
+                    <div><span>04</span></div><span>Seconds</span></div>
+            </div><a class="text-center d-block" style="font-size:12px;" href="https://frc-events.firstinspires.org/2019/NYLI2" target="_blank">See Event Details</a></div>
+        <div style="background-color:#dedede;">
+            <div class="text-center" style="max-width:600px;margin:0 auto;margin-top:20px;">
+                <h2>New York City Regional</h2>
             </div>
-        </div>
+            <div id="clock-nyc" class="countdown-timer-container">
+                <div class="countdown-timer-node days">
+                    <div><span>04</span></div><span>Days</span></div>
+                <div class="countdown-timer-node hours">
+                    <div><span>04</span></div><span>Hours</span></div>
+                <div class="countdown-timer-node minutes">
+                    <div><span>04</span></div><span>Minutes</span></div>
+                <div class="countdown-timer-node seconds">
+                    <div><span>04</span></div><span>Seconds</span></div>
+            </div><a class="text-center d-block" style="font-size:12px;" href="https://www.nycfirst.org/nycregional2018" target="_blank">See Event Details</a></div>
     </div>
+    <!-- End: Countdown Timers -->
     <div>
         <div class="divider blue"></div>
         <div class="divider orange"></div>
-    </div><button class="btn btn-dark text-white t--light" id="toggle-contrast" type="button"><i class="icon ion-contrast"></i></button>
+    </div>
     <!-- Start: Footer -->
     <div class="footer-clean">
         <footer>
